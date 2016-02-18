@@ -1,0 +1,128 @@
+html {
+	text-align: center;
+}
+
+body {
+	background-image: url('../images/arriereplan.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	max-width:1200px;
+	height: auto;
+	display: inline-block;
+	margin: 0px auto ;
+	margin-bottom: 20px;
+}
+
+*[role="container"] {
+/*	margin: 0 5% 0 5%;
+*/	background-color: rgba(255, 255, 255, 0.57);
+	margin: 3em auto ;
+	max-width: 1200px;
+	border: 1px solid;
+	border-radius: 25px 25px 25px 25px;
+	border-color: #FFF;
+	-webkit-box-shadow: -4px -4px 20px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: -4px -4px 20px 0px rgba(0,0,0,0.75);
+	box-shadow: -px -4px 20px 0px rgba(0,0,0,0.75);
+}
+
+@media (max-width: 800px) {
+	*[role='mainarticle'] {
+		font-size: 0.75em;
+	}
+}
+@media (max-width: 1000px) {
+	*[role='mainarticle']; article {
+		font-size: 0.95em;
+	}
+}
+
+
+header {
+	background: #fcfff4; /* Old browsers */
+	background: -moz-linear-gradient(top,  #fcfff4 0%, #e5e5e5 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  #fcfff4 0%,#e5e5e5 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  #fcfff4 0%,#e5e5e5 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfff4', endColorstr='#e5e5e5',GradientType=0 ); /* IE6-9 */
+	height:150px;
+	border-radius: 25px 25px 0 0;
+}
+
+*[role="logo"] {
+	float: left;
+	margin-left: 6%;
+	margin-top: 5%;
+}
+
+*[role="adresse"] {
+	float: right;
+	margin-right:6%;
+	margin-top: 4.3%;
+}
+
+@media (max-width: 800px) {
+	*[role="logo"] {
+
+	}
+	*[role="adresse"] {
+		display:none;
+	}
+
+}
+
+*[role="logo"] > img {
+	width:100%;
+}
+
+@media (min-width: 800px) {
+	*[role="adresse"] > img {
+		width:100%;
+	}
+}
+
+*[role="breadscrum"] {
+	font-size: 0.9em;
+	float: left;
+	margin-left: 6%;
+}
+
+.maintitle {
+	clear: both;
+	margin-left: 6%;
+	margin-right: 6%;
+	margin-bottom: 1em;
+	float: left;
+	font-weight: 700;
+	font-size: 1.4em;
+	border-bottom: 2px solid #f9bc24;
+	border-left: 3px solid #5c5646;
+	padding: 0.2em;
+	width: 86%;
+	text-align: left;
+	color: #d43219;
+}
+
+.defaultp {
+	text-align: left;
+	margin-left:10.1%;
+	margin-right: 5%;
+	margin-bottom: 2em;
+}
+
+.defaultul {
+	text-align: left;
+	margin-left: 7.8%;
+	font-size: 1.2em;
+	font-weight: 600;
+}
+
+.defaultul li {
+	color: #d66a2c;
+}
+
+.defaultul li p {
+	color: black;
+}
+
+
+

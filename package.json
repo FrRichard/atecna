@@ -1,0 +1,26 @@
+{
+  "name": "actecnaExercise",
+  "preferGlobal": "false",
+  "version": "0.1.0",
+  "author": "frrichard",
+  "description": "",
+  "contributors": [],
+  "engines": {
+    "node": "~0.10.24",
+    "npm": "~1.3.2"
+  },
+  "keywords": [
+    "webapp",
+    "server",
+    "proxy"
+  ],
+  "dependencies": {
+    "body-parser": "^1.14.2",
+    "express": "*",
+    "underscore": "*"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node server.js"
+  }
+}

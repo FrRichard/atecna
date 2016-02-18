@@ -1,0 +1,29 @@
+footer {
+	max-width: 1200px;
+	min-height: 6em;
+	margin-top: 4em;
+	border-top: 1px solid rgba(109, 99, 99, 0.27);
+	-webkit-border-radius: 0 0 25px 25px;
+	-moz-border-radius: 0 0 25px 25px;
+	border-radius: 0 0 25px 25px;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,e5dcd7+100 */
+	background: #ffffff; /* Old browsers */
+	background: -moz-linear-gradient(top,  #ffffff 0%, #e5dcd7 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  #ffffff 0%,#e5dcd7 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  #ffffff 0%,#e5dcd7 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5dcd7',GradientType=0 ); /* IE6-9 */
+
+}
+
+.footer {
+	padding-top:2em;
+	font-size: 0.8em;
+}
+
+.footer_contact {
+	display:block;
+}
+
+.footer_name {
+	display: block;
+}

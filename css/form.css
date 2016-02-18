@@ -1,0 +1,75 @@
+button {
+	float:right;
+	border-radius: 5px;
+	font-size: 1.2em !important;
+	color: white !important;
+	font-weight: 700 !important;
+	width:8em;
+	height:2em;
+	margin-top: 0.5em !important;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ec8c6c+1,dc3d08+100 */
+	background: #ec8c6c; /* Old browsers */
+	background: -moz-linear-gradient(top,  #ec8c6c 1%, #dc3d08 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  #ec8c6c 1%,#dc3d08 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  #ec8c6c 1%,#dc3d08 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ec8c6c', endColorstr='#dc3d08',GradientType=0 ); /* IE6-9 */
+
+}
+
+input {
+	display: inline-block;
+	float:left;
+	clear:both;
+	border-radius: 5px;
+	font-size: 0.1em;
+	box-shadow: inset  0 1px 5px 0px #888;
+	margin-bottom: 1em !important; 
+	width: 100%;
+}
+
+form {
+	margin-left: 6%;
+}
+
+.red {
+	color: red;
+}
+
+textarea {
+	display: inline;
+	width: 100%;
+	height: 7.5em;
+	border-radius: 5px;
+	box-shadow: inset  0 1px 5px 0px #888;
+}
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #f9bc24;
+    font-weight: 600;
+}
+:-moz-placeholder {  Mozilla Firefox 4 to 18 
+   color:    #f9bc24;
+   opacity:  1;
+    font-weight: 600;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #f9bc24;
+   opacity:  1;
+   font-weight: 600;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    #f9bc24;
+    font-weight: 600;
+}
+:placeholder-shown { /* Standard (https://drafts.csswg.org/selectors-4/#placeholder) */
+  color:    #f9bc24;
+  font-weight: 600;
+}
+
+.info {
+	float:left;
+}
+
+.demande {
+	/*margin-right: 6% !important;*/
+
+}
